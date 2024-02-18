@@ -5,8 +5,7 @@ qr =qrcode.QRCode(
     box_size=10,
     border=5
 )
-
-data="hello welcome to python programming"
+data = input('enter your message to convert qr : ')
 
 qr.add_data(data)
 qr.make(fit=True)
