@@ -5,6 +5,7 @@ qr =qrcode.QRCode(
     box_size=10,
     border=5
 )
+# user input there number
 data = input('enter your message to convert qr : ')
 
 qr.add_data(data)
